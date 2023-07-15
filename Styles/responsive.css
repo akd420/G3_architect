@@ -5,7 +5,7 @@
   nav,
   .team-container,
   .facts-card-container,
-  .sponsors-img-container {
+  .sponsors-img-container,.features {
     flex-direction: column;
   }
   nav li {
@@ -27,6 +27,23 @@
   .facts-card-container {
     margin-top: 3.125rem;
   }
+  .feature-img img{
+    width: 90%;
+    margin-left: 20px;
+  }
+  .ten-years-exp {
+    position: static;
+    width:280px;
+    margin-left: 17px;
+  }
+  footer div{
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  footer p{
+    padding: 30px;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 960px) {
@@ -35,7 +52,7 @@
   }
   nav,
   .team-container,
-  .sponsors-img-container {
+  .sponsors-img-container,.features {
     flex-direction: column;
   }
   .facts {
@@ -44,5 +61,17 @@
   .card {
     width: 150px;
     padding: 10px;
+  }
+  .ten-years-exp {
+    width:280px;
+    margin-left: 17px;
+  }
+  footer div{
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  footer p{
+    padding: 30px;
   }
 }

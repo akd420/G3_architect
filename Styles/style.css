@@ -116,6 +116,59 @@ main {
   margin-bottom: 2rem;
 }
 
+/* feature section */
+
+.features {
+  display: flex;
+  margin-top: 8.125rem;
+  gap: 9.125rem;
+}
+.feature-content {
+  margin-top: 0;
+}
+.feature-card {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 1.875rem 2.625rem 1.875rem 1.875rem;
+  margin-bottom: 1.25rem;
+}
+.features .section-title {
+  border-left: 0.3125rem solid rgba(255, 144, 14, 1);
+  padding-left: 1.25rem;
+}
+.features h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.625rem;
+}
+.feature-img img{
+  height: 90%;
+  margin-left: 90px;
+}
+.ten-years-exp {
+  background-color: rgba(255, 144, 14, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 0.5rem;
+  width: 300px;
+  padding: 45px 42px;
+  position: relative;
+  bottom: 130px;
+  right: 40px;
+}
+.ten-years-exp h1 {
+  font-size: 4.0625rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+.ten-years-exp p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+}
+
 /* facts section */
 .facts-card-container {
   display: flex;
@@ -155,4 +208,21 @@ main {
 }
 .sponsors-img {
   width: 10.3125rem;
+}
+
+/* footer section */
+footer{
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 200px;
+}
+footer div{
+  background-color: rgba(255, 244, 231, 1);
+  width: 90rem;
+  border-radius: 8px;
+  margin-left: 240px;
+}
+footer p{
+  text-align: center;
+  padding: 39px 400px;
 }
