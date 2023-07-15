@@ -15,6 +15,18 @@
     font-size: 1.3rem;
     cursor: pointer;
 }
+.section-title{
+    color: rgba(19, 19, 19, 1);
+  
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.gray-text{
+  color: rgba(114, 114, 114, 1);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 /* header section */
 header {
   background-color: rgba(255, 144, 14, 0.1);
@@ -57,9 +69,7 @@ nav a {
     color: rgba(19, 19, 19, 1);
 }
 .banner-dis{
-    color: rgba(114, 114, 114, 1);
-    font-size: 1rem;
-    font-weight: 400;
+    
     margin-bottom: 32px;
     margin-top: 32px;
 }
@@ -73,21 +83,21 @@ main{
     max-width: 90rem;
     margin: 4.375rem auto;
 }
-/* feature section */
-.feature-container{
+/* team section */
+.team-container{
     display: flex;
     align-items: center;
 }
-.feature-img-container{
+.team-img-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
 }
-.feature-content{
+.team-content{
     padding-right: 4.5625rem;
     padding-left: 4.5625rem;
 }
-.feature-content-title{
+.team-content-title{
     font-size: 2.8rem;
 }
 .quick{
@@ -102,8 +112,7 @@ main{
   color: rgba(255, 144, 14, 1);
   font-weight: 700;
 }
-.feature-content-dis{
-  color: rgba(114, 114, 114, 1);
+.team-content-dis{
   margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
