@@ -2,11 +2,19 @@
     header{
         padding:20px
     }
-    nav{
+    nav,.feature-container{
         flex-direction: column;
     }
     nav li{
         margin-right: 18px;
+    }
+   
+    .feature-img-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-content{
+        padding-right: 1.25rem;
+    padding-left: 1.25rem;
     }
 }
 
@@ -15,7 +23,7 @@
     header{
         padding:50px
     }
-    nav{
+    nav,.feature-container{
         flex-direction: column;
     }
 }

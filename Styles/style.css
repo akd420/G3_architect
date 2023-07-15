@@ -3,6 +3,8 @@
 /* shared styles */
 *{
   font-family: "Work Sans", sans-serif;
+  /* margin: 0;
+  padding: 0; */
 }
 .btn-primary{
     background-color: rgba(255, 144, 14, 1);
@@ -64,4 +66,44 @@ nav a {
 .banner img{
     margin-top: 50px;
     width: 100%;
+}
+
+/* main section */
+main{
+    max-width: 90rem;
+    margin: 4.375rem auto;
+}
+/* feature section */
+.feature-container{
+    display: flex;
+    align-items: center;
+}
+.feature-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.feature-content{
+    padding-right: 4.5625rem;
+    padding-left: 4.5625rem;
+}
+.feature-content-title{
+    font-size: 2.8rem;
+}
+.quick{
+  color:rgba(114, 114, 114, 1);
+  font-weight: 500;
+}
+.our{
+  color: rgba(19, 19, 19, 1);
+  font-weight: 700;
+}
+.text-span{
+  color: rgba(255, 144, 14, 1);
+  font-weight: 700;
+}
+.feature-content-dis{
+  color: rgba(114, 114, 114, 1);
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
